@@ -4,13 +4,13 @@ Proyek ini membuat aplikasi **CRUD sederhana** berbasis **Spring Boot**, **JPA**
 
 ## Struktur Proyek
 - **Model**
-  - `ModelMahasiswa` → Entity JPA yang merepresentasikan tabel mahasiswa.
+  - `ModelMahasiswa` : Entity JPA yang merepresentasikan tabel mahasiswa.
 - **Repository**
-  - `MahasiswaRepository` → Akses data menggunakan JpaRepository (CRUD otomatis).
+  - `MahasiswaRepository` : Akses data menggunakan JpaRepository (CRUD otomatis).
 - **Controller**
-  - `MahasiswaController` → Menu console: tambah data, tampilkan semua data, cek koneksi.
+  - `MahasiswaController` : Menu console: tambah data, tampilkan semua data, cek koneksi.
 - **Main App**
-  - `Pertemuan5SpringBootApplication` → Kelas utama yang menjalankan aplikasi dan memanggil menu.
+  - `Pertemuan5SpringBootApplication` : Kelas utama yang menjalankan aplikasi dan memanggil menu.
 
 ## Fitur
 - Menampilkan seluruh data mahasiswa  
